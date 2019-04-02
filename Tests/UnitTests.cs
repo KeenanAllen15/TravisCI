@@ -83,7 +83,7 @@ namespace TravisCILab
         {
             Assert.AreEqual(.5, Program.Divide("1", "2"));
             Assert.AreEqual(3, Program.Divide("3", "1"));
-            Assert.AreEqual(2, Program.Divide("5", "10"));
+            Assert.AreEqual(.5, Program.Divide("5", "10"));
         }
 
         [Test]
